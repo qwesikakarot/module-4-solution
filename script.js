@@ -56,7 +56,7 @@ WARNING!!! WARNING!!!
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
 
-  (function (window) {
+  (function () {
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", 
     "Larry", "Paula", "Laura", "Jim"];
   
@@ -71,4 +71,4 @@ WARNING!!! WARNING!!!
           helloSpeaker.speak(names[index]);
       }
     }
-  })(window);
+  })();
